@@ -1,6 +1,6 @@
 {
   "name": "dsh-dafeiyu-chatroom",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "三个人的房间：两个 DSH 会话在同一个地方说话，人可以随时插一句。",
   "license": "MIT",
   "type": "module",
