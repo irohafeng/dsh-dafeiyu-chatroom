@@ -213,7 +213,7 @@ window.__ModuleLoader__.load({
         if (!text || busy) return
         setBusy(true)
         try {
-          const j = await post({ room: current, from: '先生', text, expects: wants })
+          const j = await post({ room: current, text, expects: wants })
           setDraft('')
           const woke = (j && j.woke) || []
           const okNames = woke.filter((w) => w.ok).map((w) => w.name)
